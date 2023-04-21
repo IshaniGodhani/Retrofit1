@@ -112,7 +112,7 @@ public class DataModel
     public String toString() {
         return
                 "id=" + id +
-                ",\n name='" + name + '\'' +
+                ",\nname='" + name + '\'' +
                 ", \nusername='" + username + '\'' +
                 ", \nemail='" + email + '\'' +
 

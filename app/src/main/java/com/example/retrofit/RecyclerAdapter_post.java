@@ -25,7 +25,7 @@ public class RecyclerAdapter_post extends RecyclerView.Adapter<RecyclerAdapter_p
     @NonNull
     @Override
     public RecyclerAdapter_post.View_Holder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view= LayoutInflater.from(context).inflate(R.layout.item_file,parent,false);
+        View view= LayoutInflater.from(context).inflate(R.layout.item_file2,parent,false);
         View_Holder view_holder=new View_Holder(view);
         return view_holder;
     }
@@ -41,7 +41,7 @@ public class RecyclerAdapter_post extends RecyclerView.Adapter<RecyclerAdapter_p
     }
 
     public class View_Holder extends RecyclerView.ViewHolder {
-        TextView textView;
+        TextView textView,txt1,txt2,txt3;
         public View_Holder(@NonNull View itemView) {
             super(itemView);
             textView=itemView.findViewById(R.id.txt);

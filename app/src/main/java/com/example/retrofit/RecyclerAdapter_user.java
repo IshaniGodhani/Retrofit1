@@ -41,7 +41,7 @@ public class RecyclerAdapter_user extends RecyclerView.Adapter<RecyclerAdapter_u
     }
 
     public class View_Holder extends RecyclerView.ViewHolder {
-        TextView txt;
+        TextView txt,txt1,txt2,txt3,txt4;
         public View_Holder(@NonNull View itemView) {
             super(itemView);
             txt=itemView.findViewById(R.id.txt);
