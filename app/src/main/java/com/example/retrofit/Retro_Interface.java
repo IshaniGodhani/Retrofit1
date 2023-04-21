@@ -14,10 +14,7 @@ public interface Retro_Interface
 {
     @GET("users")
     Call<List<DataModel>> userData();
-    @GET("adress")
-    Call<List<Address>> adressData();
-    @GET("company")
-    Call<List<Company>> companyData();
-    @GET("users")
+
+    @GET("posts")
     Call<List<PostDataModel>> postData();
 }
