@@ -63,7 +63,7 @@ public class PostDataModel
         return
                 "userId=" + userId +
                 ", \nid=" + id +
-                ", \ntitle='" + title + '\'' +
+                ", \ntitle='" + title +
                 ", \nbody='" + body ;
 
     }

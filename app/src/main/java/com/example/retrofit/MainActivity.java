@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.example.retrofit.Models.Address;
 import com.example.retrofit.Models.DataModel;
 import com.example.retrofit.Models.PostDataModel;
+import com.example.retrofit.Models.RegisterData;
 
 import java.util.ArrayList;
 import java.util.List;
