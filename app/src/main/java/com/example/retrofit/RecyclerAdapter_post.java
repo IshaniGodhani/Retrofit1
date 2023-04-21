@@ -32,7 +32,10 @@ public class RecyclerAdapter_post extends RecyclerView.Adapter<RecyclerAdapter_p
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerAdapter_post.View_Holder holder, int position) {
-        holder.textView.setText(postdatalist.get(position).toString());
+        holder.textView.setText(postdatalist.get(position).getUserId().toString());
+        holder.txt1.setText(postdatalist.get(position).getId().toString());
+        holder.txt2.setText(postdatalist.get(position).getTitle().toString());
+        holder.txt3.setText(postdatalist.get(position).getBody().toString());
     }
 
     @Override
@@ -45,6 +48,9 @@ public class RecyclerAdapter_post extends RecyclerView.Adapter<RecyclerAdapter_p
         public View_Holder(@NonNull View itemView) {
             super(itemView);
             textView=itemView.findViewById(R.id.txt);
+            txt1=itemView.findViewById(R.id.txt1);
+            txt2=itemView.findViewById(R.id.txt2);
+            txt3=itemView.findViewById(R.id.txt3);
         }
     }
 }
